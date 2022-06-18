@@ -544,7 +544,6 @@ img {
   background-color: transparent;
 }
 
-
 .footer-form-input::placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -889,7 +888,7 @@ img {
 }
 
 .modal-input-checkbox:focus + .modal-form-policy::before {
-  outline: 2px solid var(--accent-color);
+  box-shadow: inset 0 0 0 2px var(--accent-color);
 }
 
 .modal-form-policy .link {
